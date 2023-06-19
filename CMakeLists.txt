@@ -3,6 +3,9 @@ set(CMAKE_LEGACY_CYGWIN_WIN32 0)
 
 project(g2o)
 
+
+find_package(fmt REQUIRED)
+
 include(CPack)
 include(GNUInstallDirs)
 
